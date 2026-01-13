@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Projects - Construction Company</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo logo-img"><img src="Logo raw.png" alt="MQS Logo" class="logo-image"></a>
+      
+      <nav>
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="services.html" data-i18n="services">Services</a>
+        <a href="brands.html" data-i18n="brands">Brands</a>
+        <a href="projects.html" data-i18n="projects">Projects</a>
+        <a href="career.html" data-i18n="career">Career</a>
+      </nav>
+      
+      <div class="header-right">
+        <div class="language-toggle">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span>|</span>
+          <button class="lang-btn" data-lang="mn">MN</button>
+        </div>
+        
+        <div class="header-buttons">
+          <a href="#contact" class="btn btn-primary" data-i18n="contact_btn">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION FOR PROJECTS PAGE -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-logo"><img src="Logo raw.png" alt="MQS Logo" class="hero-logo-img"></div>
+      <h1 data-i18n="projects_title">Our Projects</h1>
+      <p class="hero-tagline" data-i18n="projects_subtitle">Showcasing our expertise and achievements</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS GALLERY SECTION -->
+  <section class="dark">
+    <div class="container">
+      <!-- Coming Soon Message -->
+      <div class="placeholder-text fade-in" style="text-align: center; margin: 4rem 0;">
+        <h2 style="color: var(--primary-green); font-size: 2rem; margin-bottom: 1rem;">Coming Soon</h2>
+        <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 1.5rem;">Our project portfolio is currently being prepared. We're showcasing our best work and achievements.</p>
+        <p style="color: rgba(255, 255, 255, 0.7);">Check back soon to see our completed projects and case studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 data-i18n="footer_company">About Company</h4>
+          <div class="lang-content en">
+            <p>MQS (Mongolian Quantity Surveyor) is a leading construction company with over 8 years of industry expertise, delivering excellence in every project.</p>
+          </div>
+          <div class="lang-content mn">
+            <p>MQS (Монголиан Куантити Сурвейор ХХК) нь барилгын салбарт 8 гаруй жилийн туршлагатай компани юм. 2025 оноос бид үйлчилгээгээ идэвхтэйгээр өргөжүүлэн эхлүүлж байна.</p>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-i18n="footer_services">Services</h4>
+          <ul>
+            <li><a href="services.html" data-i18n="service_1">Project Management & Consulting</a></li>
+            <li><a href="services.html" data-i18n="service_2">Construction Tools & Equipment Trading</a></li>
+            <li><a href="services.html" data-i18n="service_3">Construction Materials Trading</a></li>
+            <li><a href="services.html" data-i18n="service_4">Construction Repair & Renovation</a></li>
+            <li><a href="services.html" data-i18n="service_5">International Trade</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-contact">
+          <h4 data-i18n="footer_contact">Contact</h4>
+          <div class="contact-info">
+            <span data-i18n="email_label">Email:</span>
+            <a href="mailto:info@mqs.mn">info@mqs.mn</a>
+          </div>
+          <div class="contact-info">
+            <span data-i18n="address">Address:</span>
+            <a href="https://maps.google.com/?q=Apt+402,+Margad+Center,+Oyutnii+Street,+Sukhbaatar+District,+Ulaanbaatar,+Mongolia" target="_blank">Apt. 402, Margad Center, Oyutnii Street, 8th Khoroo, Sukhbaatar District, Ulaanbaatar, Mongolia</a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4 data-i18n="contact_form">Contact Form</h4>
+          <!-- English Form -->
+          <form class="lang-content en">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send</button>
+          </form>
+          <!-- Mongolian Form -->
+          <form class="lang-content mn">
+            <div class="form-group">
+              <input type="text" placeholder="Нэр" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Имэйл Хаяг" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Мессеж" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Илгээх</button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 MQS. <span data-i18n="all_rights">All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
